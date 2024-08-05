@@ -19,7 +19,7 @@ import {
   sendAndConfirmTransactionFactory,
   setTransactionMessageFeePayerSigner,
   setTransactionMessageLifetimeUsingBlockhash,
-  signTransactionMessageWithSigners
+  signTransactionMessageWithSigners,
 } from '@solana/web3.js';
 
 type Client = {

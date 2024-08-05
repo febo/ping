@@ -1,11 +1,6 @@
-import {
-  appendTransactionMessageInstruction,
-  pipe
-} from '@solana/web3.js';
+import { appendTransactionMessageInstruction, pipe } from '@solana/web3.js';
 import test from 'ava';
-import {
-  getPingInstruction
-} from '../src';
+import { getPingInstruction } from '../src';
 import {
   createDefaultSolanaClient,
   createDefaultTransaction,
