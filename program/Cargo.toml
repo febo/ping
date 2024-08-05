@@ -1,0 +1,18 @@
+[package]
+name = "ping-program"
+version = "0.0.0"
+edition = "2021"
+readme = "./README.md"
+license-file = "../LICENSE"
+publish = false
+
+[package.metadata.solana]
+program-id = "Ping111111111111111111111111111111111111111"
+program-dependencies = []
+account-dependencies = []
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+pinocchio = { version="^0", features=["macro"], git="https://github.com/febo/pinocchio.git" }

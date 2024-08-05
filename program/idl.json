@@ -1,0 +1,20 @@
+{
+  "version": "0.0.1",
+  "name": "ping_program",
+  "instructions": [
+    {
+      "name": "Ping",
+      "args": [],
+      "discriminant": {
+        "type": "u8",
+        "value": 0
+      }
+    }
+  ],
+  "metadata": {
+    "origin": "shank",
+    "address": "Ping111111111111111111111111111111111111111",
+    "binaryVersion": "0.4.2",
+    "libVersion": "^0.4.2"
+  }
+}
